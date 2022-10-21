@@ -41,7 +41,7 @@ Add `--toc` paramater to your "Extra Pandoc Arguments" within the `pandoc plugin
 ## 4. Has reasonable styling so headings and document is readable without formatting work
 
 This can be achieved by adding a reference document to pandoc.
-Not yet explored. 
+Not yet explored. This seems to be the best guide I've found so far: https://stackoverflow.com/questions/70513062/how-do-i-add-custom-formatting-to-docx-files-generated-in-pandoc
 
 ## Extra Pandoc Arguments Example
 
