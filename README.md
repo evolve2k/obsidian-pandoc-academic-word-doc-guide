@@ -31,7 +31,7 @@ Setup 'pandoc plugin' to export to desired
 BUG. Currently there are known issues setting up Obsidian Pandoc to export images.
 This issues references most of them as a state of play: https://github.com/OliverBalfour/obsidian-pandoc/pull/128
 
-3. Automatic Table of Contents drawn from your Markdown headers
+## 3. Automatic Table of Contents drawn from your Markdown headers
 
 The 'Dynamic Table of Contents' plugin adds a table of contents within an Obsidian file.
 No idea how to do this currently.
