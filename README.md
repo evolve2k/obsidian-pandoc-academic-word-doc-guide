@@ -23,14 +23,19 @@ Pandoc provides support for various academic referencing styles. This makes usin
 Setup 'citation' plugin to integrate with your reference manager.
 Setup 'pandoc plugin' to export to desired 
 
-## 2. Embeds your images (IN PROGRESS)
+## 2. Embeds your images
 
-BUG. Currently there are known issues setting up Obsidian Pandoc to export images.
+Current the default Images markup used by Obsidian is not understood by Pandoc.
+
+WORKAROUND: Install 'Wikilinks to MDLinks' plugin and convert the image markdown for each image
+1. Install (& Enable) Plugin '[Wikilinks to MDLinks](https://github.com/agathauy/wikilinks-to-mdlinks-obsidian)'
+2. Click on each image link, press 'Cmd/Ctrl + Shift + L' to swap the Link format.
+3. Generate the document and the images should be there :)
+
+NOTE: Converting from md to docs DOES NOT require `--extract-media` 
+This is needed when converting from docx > md BUT NOT for md > docx.
+
 This issues references most of them as a state of play: https://github.com/OliverBalfour/obsidian-pandoc/pull/128
-
-In addition to other steps, you'll want to setup pandoc to export media.
-
-Add `--extract-media=./media` paramater to your "Extra Pandoc Arguments" within the `pandoc plugin`.
 
 ## 3. Automatic Table of Contents drawn from your Markdown headers
 
@@ -45,8 +50,7 @@ Not yet explored. This seems to be the best guide I've found so far: https://sta
 
 ## Extra Pandoc Arguments Example
 
---toc 
---extract-media=./media 
+--toc
 --citeproc 
 --bibliography=/Users/richiekhoo/Zotero/Library.json 
 --csl=/Users/richiekhoo/Zotero/styles/apa.csl
