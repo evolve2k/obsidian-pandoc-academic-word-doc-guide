@@ -1,6 +1,4 @@
-# obsidian-pandoc-academic-word-doc-guide
-
-Obsidian Pandoc Academic Word Doc Guide
+# Obsidian Pandoc Academic Word Doc Guide
 
 This guide has been created to be a community resource providing guidance on how to setup Obsidian to generate word documents for academic purposes.
 This guide is explictly concerned with generating documents from pandoc.
