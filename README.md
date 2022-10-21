@@ -23,20 +23,31 @@ Pandoc provides support for various academic referencing styles. This makes usin
 Setup 'citation' plugin to integrate with your reference manager.
 Setup 'pandoc plugin' to export to desired 
 
-
 ## 2. Embeds your images (IN PROGRESS)
 
 BUG. Currently there are known issues setting up Obsidian Pandoc to export images.
 This issues references most of them as a state of play: https://github.com/OliverBalfour/obsidian-pandoc/pull/128
 
+In addition to other steps, you'll want to setup pandoc to export media.
+
+Add `--extract-media=./media` paramater to your "Extra Pandoc Arguments" within the `pandoc plugin`.
+
 ## 3. Automatic Table of Contents drawn from your Markdown headers
 
 The 'Dynamic Table of Contents' plugin adds a table of contents within an Obsidian file.
-No idea how to do this currently.
 
-Closest workaround is to Manually paste what 'Dynamic Table of Contents' creates into the word document afterwards, but this comes with formatting issues.
+Add `--toc` paramater to your "Extra Pandoc Arguments" within the `pandoc plugin`.
 
 ## 4. Has reasonable styling so headings and document is readable without formatting work
 
 This can be achieved by adding a reference document to pandoc.
 Not yet explored. 
+
+## Extra Pandoc Arguments Example
+
+--toc 
+--extract-media=./media 
+--citeproc 
+--bibliography=/Users/richiekhoo/Zotero/Library.json 
+--csl=/Users/richiekhoo/Zotero/styles/apa.csl
+
