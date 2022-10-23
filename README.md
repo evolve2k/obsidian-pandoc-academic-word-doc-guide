@@ -53,7 +53,7 @@ WORKAROUND: Install 'Wikilinks to MDLinks' plugin and convert the image markdown
 3. Manually delete extra path details from the image path so you only have '/media/filename.png'
 4. Generate the document and the images should be there :)
 
-NOTE: Converting from md to docs DOES NOT require `--extract-media` 
+NOTE: Converting from md to docs [DOES NOT require `--extract-media`](https://groups.google.com/g/pandoc-discuss/c/NSAeHu0YTE8/m/7_7tmW4sCQAJ) 
 This is needed when converting from docx > md BUT NOT for md > docx.
 
 This issues references most of them as a state of play: https://github.com/OliverBalfour/obsidian-pandoc/pull/128
