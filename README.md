@@ -73,6 +73,6 @@ Not yet explored. This seems to be the best guide I've found so far: https://sta
 
 --toc
 --citeproc 
---bibliography=/Users/richiekhoo/Zotero/Library.json 
---csl=/Users/richiekhoo/Zotero/styles/apa.csl
+--bibliography=/Users/username/Zotero/Library.json 
+--csl=/Users/username/Zotero/styles/apa.csl
 
