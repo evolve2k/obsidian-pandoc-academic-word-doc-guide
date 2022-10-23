@@ -25,12 +25,33 @@ Setup 'pandoc plugin' to export to desired
 
 ## 2. Embeds your images
 
-Current the default Images markup used by Obsidian is not understood by Pandoc.
+Generally there are two issues at play
+- The defauly image markup used by Obsidian when you drag images in, is not understood by Pandoc.
+- The file path has issues, either not pointing to the same place or also it has spaces in it.
+
+Here's my personal workaround, to 'get it images working' to begin with.
+
+1. Update where images are stored in Obsidian Preferences
+
+ > Files & Links > Default location for new attachments
+
+(I've used a folder called 'media', but you can use a different name)
+
+![image](https://user-images.githubusercontent.com/114459/197368985-1ec874f5-b5e4-458c-baa9-89a6038111cf.png)
+
+2. Use links in this format
+
+```![](media/filename.png)```
+
+*Test this yourself: Drag a new image into your document, check that it was added to /media within the same folder as your document and then hand adjust the markdown match the format above.*
+
+3. Making this *more* efficient
 
 WORKAROUND: Install 'Wikilinks to MDLinks' plugin and convert the image markdown for each image
 1. Install (& Enable) Plugin '[Wikilinks to MDLinks](https://github.com/agathauy/wikilinks-to-mdlinks-obsidian)'
-2. Click on each image link, press 'Cmd/Ctrl + Shift + L' to swap the Link format.
-3. Generate the document and the images should be there :)
+2. Click on an image link, press 'Cmd/Ctrl + Shift + L' to swap the Link format.
+3. Manually delete extra path details from the image path so you only have '/media/filename.png'
+4. Generate the document and the images should be there :)
 
 NOTE: Converting from md to docs DOES NOT require `--extract-media` 
 This is needed when converting from docx > md BUT NOT for md > docx.
