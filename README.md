@@ -23,6 +23,11 @@ Pandoc provides support for various academic referencing styles. This makes usin
 Setup 'citation' plugin to integrate with your reference manager.
 Setup 'pandoc plugin' to export to desired 
 
+#### 1b. Work out how to add page numbers as I embed citations.
+
+How do I add page numbers into dynamic citations created with the 'citation' plugin.
+I do not know.
+
 ## 2. Embeds your images
 
 Generally there are two issues at play
@@ -76,3 +81,4 @@ Not yet explored. This seems to be the best guide I've found so far: https://sta
 --bibliography=/Users/username/Zotero/Library.json 
 --csl=/Users/username/Zotero/styles/apa.csl
 
+Contributions, questions, isssues, PR's welcome :)
