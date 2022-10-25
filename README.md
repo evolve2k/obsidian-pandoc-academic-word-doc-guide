@@ -28,6 +28,17 @@ Setup 'pandoc plugin' to export to desired
 How do I add page numbers into dynamic citations created with the 'citation' plugin.
 I do not know.
 
+### How to add page numbers in a citation
+
+When you add a citation (eg I press Ctrl + Shift + M) it drops in a citation link (I have mine set to use APA).
+
+    [@gwilt_2022] becomes (Gwilt, 2022) # for me as I'm using APA.
+
+To add page numbers to a reference; add the the page number(s) after a comma inside the brackets
+
+    [@gwilt_2022,5] becomes (Gwilt, 2022, p. 5)
+    [@gwilt_2022,17-19] becomes (Gwilt, 2022, pp. 17-19)
+
 ## 2. Embeds your images
 
 Generally there are two issues at play
