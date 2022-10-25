@@ -20,13 +20,8 @@ The document contains:
 
 Pandoc provides support for various academic referencing styles. This makes using pandoc for document conversion the necessary tool to use.
 
-Setup 'citation' plugin to integrate with your reference manager.
-Setup 'pandoc plugin' to export to desired 
+Instructions to Setup Obsidian with Zotero [are here](setup-zotero-obsidian.md).
 
-#### 1b. Work out how to add page numbers as I embed citations.
-
-How do I add page numbers into dynamic citations created with the 'citation' plugin.
-I do not know.
 
 ### How to add page numbers in a citation
 
