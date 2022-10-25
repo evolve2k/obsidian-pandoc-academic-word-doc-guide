@@ -19,6 +19,8 @@ Restart Zotero, and then click through each of the default settings for Better B
 
 Recommend you create a folder 'config' in your Obsidian Vault for config stuff like this.
 
+<img width="338" alt="How to create a folder" src="https://user-images.githubusercontent.com/114459/197720840-b52105e4-c9f2-4ed3-97c0-4b1dd1d3d048.png">
+
 In Zotero: File -> Export Library.. -> CSLJSON
 Save the file in your Obsidian Vault (recommend: '/config/Library.json')
 
@@ -28,8 +30,6 @@ Save the file in your Obsidian Vault (recommend: '/config/Library.json')
 #### Create 'Literature Notes' folder
 Add a new folder 'Literature Notes' to your Obsidian Vault main root directory (you can use another name here and in the config below)
 (If you don't add the folder you’ll get strange ENOENT errors later)
-
-<img width="338" alt="image" src="https://user-images.githubusercontent.com/114459/197720840-b52105e4-c9f2-4ed3-97c0-4b1dd1d3d048.png">
 
 Add a new folder in Obsidian called 'Literature Notes' (you can use a different name but make sure it's named exactly in the Citation plugin setup.)
 Later Obsidian can auto create an automatic Literature Note file for any reference you have in Zotero.. and you can write your own notes on it there.
