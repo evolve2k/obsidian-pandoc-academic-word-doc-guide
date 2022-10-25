@@ -55,5 +55,8 @@ Setup the following settings
 
 More to come..
 
-Credit to vasuagrawl for [their version of these instructions](https://notes.vasuagrawal.com/2022/04/zotero-and-obsidian-literature-notes/).
+Credit to:
+
+* Vasuagrawl - https://notes.vasuagrawal.com/2022/04/zotero-and-obsidian-literature-notes
+* Marinan Montes - https://www.marianamontes.me/post/obsidian-and-zotero/
 
