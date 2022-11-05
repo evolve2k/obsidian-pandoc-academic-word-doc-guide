@@ -33,6 +33,13 @@ To add page numbers to a reference; add the the page number(s) after a comma ins
 
     [@gwilt_2022,5] becomes (Gwilt, 2022, p. 5)
     [@gwilt_2022,17-19] becomes (Gwilt, 2022, pp. 17-19)
+    
+| Markdown | Example Pandoc Output |
+| ------------- | ------------- |
+| [@gwilt_2022,5]  | (Gwilt, 2022, p. 5)  |
+| [@gwilt_2022,17-19] | (Gwilt, 2022, pp. 17-19)  |
+| [@gwilt_2010 updated 2020]  | (Gwilt, 2010 updated 2020) |
+
 
 ## 2. Embeds your images
 
