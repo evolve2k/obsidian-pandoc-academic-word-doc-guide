@@ -88,3 +88,14 @@ Not yet explored. This seems to be the best guide I've found so far: https://sta
 --csl=/Users/username/Zotero/styles/apa.csl
 
 Contributions, questions, isssues, PR's welcome :)
+
+## 5. Refinements to address annoyances that affect personal flow
+
+### When switching between notes in Obsidian, [when I return Im taken to the top of the document](https://forum.obsidian.md/t/restore-last-document-position/962/59)
+
+This means I keep loosing my place, especially on long documents, each time I switch beteen notes.
+
+As of 2022, Install the community plugin: [obsidian-remember-cursor-position](https://github.com/dy-sh/obsidian-remember-cursor-position)
+
+
+
