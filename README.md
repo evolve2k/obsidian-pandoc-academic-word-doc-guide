@@ -91,11 +91,9 @@ Contributions, questions, isssues, PR's welcome :)
 
 ## 5. Refinements to address annoyances that affect personal flow
 
-### When switching between notes in Obsidian, [when I return Im taken to the top of the document](https://forum.obsidian.md/t/restore-last-document-position/962/59)
+### When switching between notes in Obsidian, when I return I'm taken to the top of the document
 
-This means I keep loosing my place, especially on long documents, each time I switch beteen notes.
+This interupts flow and thought process as every time you switch between notes you loose your place.
+Best discussion is this forum post: [Restore last document position](https://forum.obsidian.md/t/restore-last-document-position/962/59), accessed Nov 2022
 
 As of 2022, Install the community plugin: [obsidian-remember-cursor-position](https://github.com/dy-sh/obsidian-remember-cursor-position)
-
-
-
