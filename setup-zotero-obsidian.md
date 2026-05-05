@@ -19,6 +19,10 @@ Thanks to Mariana Montes for this wonderful guidance on setting up citation keys
 
 > Once you have installed Better BibTex, you will find a new tab in your Zotero Preferences (see Figure 1), where you can define a template for your citation keys. Mine uses, in lower case, the last name of the first author, separated by a period from the last name of the second author or, if there are more than two, etal. Then, it adds an underscore and the year.
 
+New cite key to use: 
+
+`authEtal2.lower.postfix(_) + year`
+
 ![image](https://user-images.githubusercontent.com/114459/197723985-8714f150-1507-42ff-ba77-8a9d35fe9fce.png)
 
 > This is a good pattern for me because it’s similar to how I’m used to thinking of the sources I cite: montes_2021 for Montes (2021); kiela.clark_2014 for Kiela & Clark (2014); heylen.etal_2015 for Heylen et al. (2015). When multiple publications have the same key, Better BibTex automatically adds an a, b, c… to the citation key. You have to remember which is which, but looking it up is not so hard either (see Figure 2).
