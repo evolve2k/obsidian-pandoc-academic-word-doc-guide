@@ -56,6 +56,28 @@ Setup the following settings
 <img width="707" alt="image" src="https://user-images.githubusercontent.com/114459/197720197-737b4ec0-cbae-43df-b41c-d00630c5bd22.png">
 <img width="703" alt="image" src="https://user-images.githubusercontent.com/114459/197720264-99e5dd10-f761-4f8d-8495-665aa9d3633e.png">
 
+Literature Note Content Template
+```
+---
+title: {{title}}
+item type: {{type}} #literaturenote
+authors: {{authorString}}
+year: {{year}}
+date added: 
+url: {{url}}
+zotero link: {{zoteroSelectURI}}
+---
+# {{title}}
+[source]({{URL}}) [zotero]({{zoteroSelectURI}})
+
+## Abstract
+{{abstract}}
+
+## Summary {{authorString}} ({{year}})
+
+## Key Ideas {{authorString}} ({{year}})
+### {{authorString}} ({{year}}) and 
+```
 
 More to come..
 
